@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = numeric()) {
 }
 
 ## matlib package needs to be loaded or cacheSolve will throw an error
-## inv function cannot be found
+## the error will say "inv function cannot be found"
 
 cacheSolve <- function(x, ...) {
         m <- x$getinv()
